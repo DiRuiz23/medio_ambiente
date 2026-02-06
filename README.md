@@ -1,30 +1,30 @@
-# 🌍 Sitio Web de Conciencia Ambiental
+# Sitio Web de Conciencia Ambiental
 
 Aplicación web educativa desarrollada con Flask que promueve la conciencia ambiental a través de información sobre sistemas de gestión ambiental y las 3 R del reciclaje.
 
-## 🚀 Características
+##  Características
 
-- ✅ Diseño moderno y responsive con Bootstrap 5
-- ✅ Animaciones suaves y efectos hover
-- ✅ Paleta de colores inspirada en la naturaleza
-- ✅ Tipografía profesional (Google Fonts)
-- ✅ Estadísticas impactantes sobre el medio ambiente
-- ✅ Sistema de navegación intuitivo
+-  Diseño moderno y responsive con Bootstrap 5
+-  Animaciones suaves y efectos hover
+-  Paleta de colores inspirada en la naturaleza
+-  Tipografía profesional (Google Fonts)
+-  Estadísticas impactantes sobre el medio ambiente
+-  Sistema de navegación intuitivo
 
-## 📚 Secciones
+##  Secciones
 
 1. **Inicio** - Landing page con hero section, estadísticas y call to action
 2. **Sistema Ambiental** - Información sobre sistemas de gestión ambiental
 3. **Futuro** - Impacto de nuestras acciones en las próximas generaciones
 4. **Las 3 R** - Reducir, Reutilizar y Reciclar
 
-## 🛠️ Tecnologías
+##  Tecnologías
 
 - **Backend:** Python + Flask
 - **Frontend:** HTML5, CSS3, Bootstrap 5.3.2
 - **Fuentes:** Google Fonts (Montserrat, Open Sans)
 
-## 📦 Instalación
+##  Instalación
 
 1. Clonar el repositorio:
 
@@ -71,7 +71,7 @@ python app.py
 
 7. Abrir en el navegador: `http://localhost:5000`
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 medio_ambiente/
@@ -89,14 +89,6 @@ medio_ambiente/
 └── DOCUMENTACION_TECNICA.md # Documentación completa
 ```
 
-## 📖 Documentación
+##  Autor
 
-Para más detalles sobre la implementación, consulta [DOCUMENTACION_TECNICA.md](DOCUMENTACION_TECNICA.md)
-
-## 📄 Licencia
-
-Este proyecto fue creado con fines educativos.
-
-## 👤 Autor
-
-Desarrollado en 2026
+Juan Diego Ruiz Rivera
