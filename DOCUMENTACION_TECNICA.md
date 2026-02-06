@@ -6,8 +6,7 @@
 2. [Tecnologías Utilizadas](#tecnologías-utilizadas)
 3. [Estructura del Proyecto](#estructura-del-proyecto)
 4. [Proceso de Implementación](#proceso-de-implementación)
-5. [Características Implementadas](#características-implementadas)
-6. [Guía de Instalación](#guía-de-instalación)
+5. [Guía de Instalación](#guía-de-instalación)
 
 ---
 
