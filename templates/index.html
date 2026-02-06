@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Hero Section -->
+<div class="hero-section mb-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h1 class="display-4 mb-4">¿Por qué es importante cuidar el medio ambiente?</h1>
+      <p class="lead">
+        El medio ambiente es la base de la vida. Protegerlo garantiza bienestar,
+        salud y recursos para las futuras generaciones.
+      </p>
+    </div>
+    <div class="col-md-6">
+      <img src="{{ url_for('static', filename='images/ambiente.jpg') }}"
+      class="img-fluid rounded shadow-lg" alt="Medio Ambiente">
+    </div>
+  </div>
+</div>
+
+<!-- Cards de Navegación -->
+<h3 class="text-center mb-4">Explora nuestros temas</h3>
+<div class="row mb-5">
+  <div class="col-md-4 mb-3">
+    <a href="/sistema-ambiental" class="nav-card-link">
+      <div class="nav-card">
+        <div class="nav-card-icon">🌱</div>
+        <h5>Sistema Ambiental</h5>
+        <p>Descubre cómo funcionan los sistemas de gestión ambiental</p>
+      </div>
+    </a>
+  </div>
+  <div class="col-md-4 mb-3">
+    <a href="/futuro" class="nav-card-link">
+      <div class="nav-card">
+        <div class="nav-card-icon">🌍</div>
+        <h5>Nuestro Futuro</h5>
+        <p>El planeta que dejaremos a las próximas generaciones</p>
+      </div>
+    </a>
+  </div>
+  <div class="col-md-4 mb-3">
+    <a href="/tres-r" class="nav-card-link">
+      <div class="nav-card">
+        <div class="nav-card-icon">♻️</div>
+        <h5>Las 3 R</h5>
+        <p>Reducir, Reutilizar y Reciclar para un mundo mejor</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+<!-- Estadísticas Impactantes -->
+<div class="stats-section mb-5">
+  <h3 class="text-center mb-4">Datos que nos invitan a reflexionar</h3>
+  <div class="row text-center">
+    <div class="col-md-3 col-6 mb-3">
+      <div class="stat-card">
+        <div class="stat-number">8M</div>
+        <div class="stat-label">Toneladas de plástico en el océano anualmente</div>
+      </div>
+    </div>
+    <div class="col-md-3 col-6 mb-3">
+      <div class="stat-card">
+        <div class="stat-number">+1.1°C</div>
+        <div class="stat-label">Incremento de temperatura global desde 1880</div>
+      </div>
+    </div>
+    <div class="col-md-3 col-6 mb-3">
+      <div class="stat-card">
+        <div class="stat-number">10M</div>
+        <div class="stat-label">Hectáreas de bosque perdidas cada año</div>
+      </div>
+    </div>
+    <div class="col-md-3 col-6 mb-3">
+      <div class="stat-card">
+        <div class="stat-number">9%</div>
+        <div class="stat-label">Del plástico mundial se recicla actualmente</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Call to Action -->
+<div class="cta-section text-center">
+  <h3 class="mb-3">¡El cambio comienza contigo!</h3>
+  <p class="lead mb-4">
+    Cada acción cuenta. Juntos podemos crear un futuro más sostenible para todos.
+  </p>
+  <div class="cta-actions">
+    <span class="cta-badge">💧 Ahorra agua</span>
+    <span class="cta-badge">💡 Usa energía limpia</span>
+    <span class="cta-badge">🌳 Planta árboles</span>
+    <span class="cta-badge">♻️ Recicla siempre</span>
+  </div>
+</div>
+
+{% endblock %}

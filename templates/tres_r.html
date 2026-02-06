@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="text-center mb-4">Las 3 R del cuidado ambiental</h2>
+<div class="row">
+  <div class="col-md-4 mb-4">
+    <div class="content-card r-card">
+      <img src="{{ url_for('static', filename='images/reducir.jpg') }}" alt="Reducir">
+      <div class="card-body text-center">
+        <h4>Reducir</h4>
+        <p>Consumir solo lo necesario y evitar el desperdicio.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+    <div class="content-card r-card">
+      <img src="{{ url_for('static', filename='images/reutilizar.jpg') }}" alt="Reutilizar">
+      <div class="card-body text-center">
+        <h4>Reutilizar</h4>
+        <p>Dar una segunda vida a los objetos antes de desecharlos.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+    <div class="content-card r-card">
+      <img src="{{ url_for('static', filename='images/reciclar.jpg') }}" alt="Reciclar">
+      <div class="card-body text-center">
+        <h4>Reciclar</h4>
+        <p>Transformar residuos en nuevos productos útiles.</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
