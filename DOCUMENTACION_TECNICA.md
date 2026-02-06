@@ -1,6 +1,6 @@
 # Documentación Técnica - Sitio Web de Conciencia Ambiental
 
-## 📋 Índice
+##  Índice
 
 1. [Descripción del Proyecto](#descripción-del-proyecto)
 2. [Tecnologías Utilizadas](#tecnologías-utilizadas)
