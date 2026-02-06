@@ -8,7 +8,6 @@
 4. [Proceso de Implementación](#proceso-de-implementación)
 5. [Características Implementadas](#características-implementadas)
 6. [Guía de Instalación](#guía-de-instalación)
-7. [Arquitectura del Sistema](#arquitectura-del-sistema)
 
 ---
 
